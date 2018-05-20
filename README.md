@@ -4,6 +4,7 @@ docker build -t nas2docker/gst-build-python .
 
 docker run -it nas2docker/gst-build-python
 
+RUN: export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib:/usr/lib
 
 
 # Ref Links
