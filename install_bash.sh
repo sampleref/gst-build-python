@@ -150,6 +150,7 @@ cd ..
 
 # omx support
 cd gst-omx
+ git checkout -t origin/$BRANCH || true
  make uninstall || true
 git pull
 if [[ $RPI -eq 1 ]]; then
