@@ -170,10 +170,11 @@ cd ..
 # VAAPI, not for RPI
 if [[ $RPI -ne 1 ]]; then
     cd gstreamer-vaapi
+     git checkout -t origin/$BRANCH || true
      make uninstall || true
-    git pull
+     git pull
     ./autogen.sh
-    make
+     make
      make install
     cd ..
 fi
