@@ -1,6 +1,7 @@
 #!/bin/bash
 
 BRANCH="1.14"
+RPI="1"
 if grep -q BCM2708 /proc/cpuinfo; then
     echo "RPI BUILD!"
     RPI="1"
