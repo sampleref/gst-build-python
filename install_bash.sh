@@ -38,7 +38,7 @@ apt-get install -y --force-yes build-essential autotools-dev automake autoconf \
                                     libcdio-dev libdvdread-dev libmad0-dev libmp3lame-dev \
                                     libmpeg2-4-dev libopencore-amrnb-dev libopencore-amrwb-dev \
                                     libsidplay1-dev libtwolame-dev libx264-dev libusb-1.0 \
-                                    python-gi-dev yasm python3-dev libgirepository1.0-dev libnice-dev
+                                    python-gi-dev yasm python3-dev libgirepository1.0-dev libnice-dev libva-dev
 
 # get the repos if they're not already there
 cd $HOME
